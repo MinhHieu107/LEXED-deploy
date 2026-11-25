@@ -4,13 +4,6 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 
-
-require("dotenv").config();
-
-const express = require("express");
-const cors = require("cors");
-const app = express();
-
 const allowedOrigins = [
     "http://localhost:5173",
     "https://lexed-deploy.vercel.app",
